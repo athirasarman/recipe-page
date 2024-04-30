@@ -1,4 +1,4 @@
-import './App.css';
+import './variables.css';
 import RecipePage from './components/recipe-page';
 
 function App() {
