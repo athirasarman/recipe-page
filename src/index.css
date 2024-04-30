@@ -2,8 +2,18 @@ body {
   margin: 0;
   background-color: #ceb795;
 }
+
+@font-face {
+  font-family: "Outfit", sans-serif;
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Young Serif", serif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
 @media screen and (min-width: 993px ) {
   body {
-    margin: 100px;
+    margin: 80px;
   }
 }
