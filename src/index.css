@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  background-color: #ceb795;
+  background-color:white;
 }
 @media screen and (min-width: 993px ) {
   body {
     margin: 80px;
+    background-color:  #ceb795;
   }
 }
