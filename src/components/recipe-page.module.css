@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerImage {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 993px) {
+  .container {
+    flex-direction: column;
+    padding: 32px;
+    background-color: white;
+    border-radius: 32px;
+  }
+  .bannerImage {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+  }
+}
