@@ -63,6 +63,31 @@
 .ingredientsText {
   color: var(--wenge-brown);
 }
+table {
+  width: 100%;
+  margin: 16px 0;
+  border-collapse: collapse;
+}
+.tablerow {
+  border-bottom: 1px solid var(--light-grey);
+  width: 100%;
+}
+table .tablerow:last-child {
+  border-bottom: none;
+}
+.tablecell {
+  padding: 10px 20px;
+}
+.tablecellvalue {
+  color: var(--nutmeg);
+  font-weight: 700;
+}
+.attribution{
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .container {
