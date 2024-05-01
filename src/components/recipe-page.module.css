@@ -22,7 +22,28 @@
   color: var(--wenge-brown);
   padding: 0 32px;
 }
-
+.preparationcard {
+  border-radius: 16px;
+  background-color: var(--rose-white);
+  padding: 32px;
+}
+.preparationheading {
+  color: var(--dark-raspberry);
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 0;
+}
+.listitem {
+  padding: 8px 0;
+  color:var(--dark-raspberry);
+}
+.listitemHeading{
+  font-weight: 700;;
+  color: var(--wenge-brown);
+}
+.listitemText{
+  color: var(--wenge-brown);
+}
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .container {
