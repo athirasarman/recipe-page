@@ -22,8 +22,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 
 ## Author
 - Frontend Mentor - [@athirasarman](https://www.frontendmentor.io/profile/athirasarman)
